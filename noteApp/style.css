@@ -1,0 +1,55 @@
+.clickOnNote{
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: none;
+    }
+
+
+  .palet {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin-right: 0.4rem;
+  }
+
+  .remove,
+  .add {
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+
+  body {
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .p1 {
+    white-space: pre-wrap;
+    text-align: center;
+  }
+
+  .input {
+    border-radius: 0.3rem;
+    padding: 1rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    outline: none;
+    border: 1px solid rgb(133, 133, 133);
+  }
+
+  input:focus{
+    outline: none;
+    border:1px solid rgb(93, 167, 220);
+    box-shadow: 0px 0px 10px rgb(81, 172, 228);
+  }
+
+  h2 {
+    font-weight: bold;
+    text-align: center;
+  }
